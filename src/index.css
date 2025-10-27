@@ -160,8 +160,11 @@
   padding: 0;
   text-align: center;
 } */
+@import "tailwindcss/base";
+@import "tailwindcss/utilities";
+@import "tailwindcss/components";
 
-@import "tailwindcss";
+/* @import "tailwindcss"; */
 
 @theme {
   --color-border: hsl(var(--border));

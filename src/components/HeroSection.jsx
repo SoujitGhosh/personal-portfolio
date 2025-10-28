@@ -1,4 +1,6 @@
 import { ArrowDown } from "lucide-react";
+import profileImg from "../assets/y.jpg";
+
 
 export const HeroSection = () => {
   return (
@@ -56,10 +58,11 @@ export const HeroSection = () => {
         {/* Right Profile Image */}
         <div className="relative animate-fade-in-delay-1 w-full md:w-2/5 flex justify-center">
           <img
-            src="./src/assets/y.jpg"
-            alt="Soujit"
-            className="w-64 md:w-[380px] lg:w-[420px] object-cover rounded-[36px] opacity-90 brightness-[0.85] contrast-[1.2] transition duration-700 ease-in-out shadow-[0_0_40px_rgba(0,168,255,0.25)]"
-          />
+  src={profileImg}
+  alt="Soujit"
+  className="w-64 md:w-[380px] lg:w-[420px] object-cover rounded-[36px] opacity-90 brightness-[0.85] contrast-[1.2] transition duration-700 ease-in-out shadow-[0_0_40px_rgba(0,168,255,0.25)]"
+/>
+
 
           {/* Fade Gradient merging into background */}
           <div className="absolute inset-y-0 right-0 w-3/4 bg-gradient-to-left from-[#071520] to-transparent rounded-[36px] pointer-events-none" />

@@ -2,6 +2,7 @@ import { ArrowDown } from "lucide-react";
 import profileImg from "../assets/y.jpg";
 
 
+
 export const HeroSection = () => {
   return (
     <section

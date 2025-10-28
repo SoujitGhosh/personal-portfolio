@@ -14,10 +14,10 @@ const projects = [
     id: 2,
     title: "Personal-Portfolio",
     description:"Interactive analytics dashboard with data visualization and filtering capabilities.",
-    image: "/projects/project2.png",
+    image: "/projects/P.jpg",
     tags: ["React", "Tailwind CSS"],
     demoUrl: "https://personal-portfolio-beta-gilt.vercel.app/",
-    githubUrl: "#",
+    // githubUrl: "#",
   },
   // {
   //   id: 3,
@@ -33,8 +33,8 @@ const projects = [
 
 export const ProjectsSection = () => {
   return (
-    <section id="projects" className="py-24 px-4 relative">
-      <div className="container mx-auto max-w-5xl">
+    <section id="projects" className="py-24 px-10 relative">
+      <div className="container mx-auto max-w-10xl">
         <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">
           {" "}
           Featured <span className="text-primary"> Projects </span>
@@ -45,7 +45,7 @@ export const ProjectsSection = () => {
           crafted with attention to detail, performance, and user experience.
         </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-20">
           {projects.map((project, key) => (
             <div
               key={key}
